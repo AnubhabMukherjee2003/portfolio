@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Josefin+Sans:ital@1&family=Raleway:ital,wght@1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            border: 0px;
+        }
+
+        body {
+            background-color: rgb(31, 36, 45);
+            color: white;
+            height: 100fh;
+            width: 100fw;
+        }
+
+        header {
+            position: sticky;
+        }
+
+        .navbar {
+            background-color: black;
+            border-radius: 30px;
+            height: 30px;
+            /* position: sticky */
+            /* width: 100vw; */
+        }
+
+        .navbar li {
+            float: left;
+            margin: 4px;
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            color: white;
+            border: 4px solid black;
+            padding: 4px;
+            margin: 6px 4px;
+            transition-duration: 1s;
+        }
+
+        .navbar li a:hover {
+            color: red;
+
+        }
+
+        #about {
+            display: flex;
+            justify-content: space-evenly;
+            height: 700px;
+        }
+
+        img {
+            padding: 95px;
+            height: 700px;
+            width: 700px;
+            /* animation-name: antu; */
+            /* animation: antu 1s ease-in 0s 1 reverse forwards; */
+        }
+
+
+        .container {
+            /* margin: auto; */
+            /* left: 100px; */
+            padding: 200px;
+            font-size: 20px;
+            position: relative;
+
+            animation: antu 1s ease-in 0s 1 reverse forwards;
+        }
+        @keyframes antu {
+            form {
+                padding: 100px;
+                font-size: 100px;
+            }
+
+            to {
+                padding: 200px;
+                font-size: 20px;
+            }
+        }
+
+
+        .contact {
+            margin: 40px;
+
+        }
+
+        .contact li {
+            float: left;
+            margin: 4px;
+        }
+
+        .container ul {
+            overflow: auto;
+        }
+
+        .container li a {
+            text-decoration: none;
+            color: aqua;
+            border: 4px solid black;
+            padding: 4px;
+            margin: 6px 4px;
+        }
+
+        footer {
+            height: 150px;
+            padding: 120px;
+        }
+        .container h3{
+            margin: 20px;
+        }
+        .container p{
+            padding: 10px;
+            font-family: 'Comic Neue', cursive;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Raleway', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul style="list-style: none;">
+                <li ><a style="color: red;" href="/" target="_blank">home</a></li>
+                <li><a href="/about" target="_blank">About</a></li>
+                <li><a href="/project" target="_blank">Projects</a></li>
+                <li><a href="/contact" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="about"  style="margin-bottom:20em;" >
+        <div class="container">
+            <h1 style="color: aqua;">hello, its me</h1>
+            <h3>Anubhab Mukherjee.</h3>
+            <p style="text-align: center;">I am a Computer Science undergraduate student with a passion for exploring
+                the latest technology trends. Through this website, I hope to share my journey of learning and discovery
+                in the world of computer science. From new programming languages to emerging technologies, I'm
+                constantly seeking out the next big thing.</p>
+        </div>
+        <img src="https://media.licdn.com/dms/image/D4D03AQGJMziy9Zd_pQ/profile-displayphoto-shrink_800_800/0/1694852087391?e=1711584000&v=beta&t=7WmMh41Rm8g4oJq1LzWToBkEd-_PX3X5FY4DiUq-9wg"
+            alt="my photo">
+    </div>
+
+    <h2 id="about2">About</h2>
+    Lorel ipsum.
+    <footer>
+        <p>&copy; 2023 Anubhab Mukherjee ; All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
